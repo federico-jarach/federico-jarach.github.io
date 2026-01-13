@@ -375,8 +375,8 @@ footer p {
     }
 
     .theme-toggle {
-        width: 100%;
-        text-align: center;
+        width: auto;
+        align-self: flex-start;
     }
 
     h1 {
