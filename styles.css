@@ -85,22 +85,6 @@ nav a:hover {
     border-color: var(--color-text);
 }
 
-.theme-default-only {
-    display: block;
-}
-
-.theme-dnd-only {
-    display: none;
-}
-
-body[data-theme="dnd"] .theme-default-only {
-    display: none;
-}
-
-body[data-theme="dnd"] .theme-dnd-only {
-    display: block;
-}
-
 body[data-theme="dnd"] {
     --color-bg: #f7efe2;
     --color-text: #231c16;
@@ -338,6 +322,18 @@ strong {
 
 .btn-secondary:hover {
     border-color: var(--color-text);
+}
+
+body:not([data-theme="dnd"]) .theme-dnd-only {
+    display: none;
+}
+
+body[data-theme="dnd"] .theme-default-only {
+    display: none;
+}
+
+body[data-theme="dnd"] .theme-dnd-only {
+    display: block;
 }
 
 /* Footer */
