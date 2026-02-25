@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1200" />
+  <title>OG Cover — Federico Jarach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+    }
+
+    .card {
+      width: 1200px;
+      height: 630px;
+      background-color: #1A2620;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 64px 80px 56px;
+      overflow: hidden;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    /* Noise texture overlay */
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.06'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* Radial glow top-right */
+    .glow-tr {
+      position: absolute;
+      top: -120px;
+      right: -80px;
+      width: 560px;
+      height: 560px;
+      background: radial-gradient(circle, rgba(138,158,146,0.18) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    /* Radial glow bottom-left */
+    .glow-bl {
+      position: absolute;
+      bottom: -100px;
+      left: -60px;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(74,99,84,0.2) 0%, transparent 70%);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    /* Subtle horizontal rule accent */
+    .accent-line {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #4A6354 20%, #8A9E92 50%, #4A6354 80%, transparent);
+      z-index: 2;
+    }
+
+    /* Content layers above z-index 0 */
+    .top, .middle, .bottom {
+      position: relative;
+      z-index: 2;
+    }
+
+    /* TOP: initials monogram */
+    .monogram {
+      width: 52px;
+      height: 52px;
+      border-radius: 14px;
+      background: #2A4032;
+      border: 1px solid rgba(209,221,211,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #F4F7F5;
+      letter-spacing: -0.5px;
+    }
+
+    /* MIDDLE: main content */
+    .middle {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8px 0 0;
+    }
+
+    .name {
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 0.92;
+      color: #F4F7F5;
+      letter-spacing: -3px;
+      margin-bottom: 28px;
+    }
+
+    .tagline-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .tagline-line1 {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 28px;
+      color: rgba(244,247,245,0.65);
+      letter-spacing: -0.3px;
+      line-height: 1.2;
+    }
+
+    .tagline-line2 {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 28px;
+      color: rgba(244,247,245,0.65);
+      letter-spacing: -0.3px;
+      line-height: 1.2;
+    }
+
+    /* BOTTOM: pills row + url */
+    .bottom {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+
+    .pills {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      border-radius: 999px;
+      background: rgba(244,247,245,0.07);
+      border: 1px solid rgba(209,221,211,0.18);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(244,247,245,0.55);
+    }
+
+    .pill .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #8A9E92;
+      flex-shrink: 0;
+    }
+
+    .url {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: rgba(244,247,245,0.3);
+      text-transform: lowercase;
+    }
+
+    /* Decorative vertical rule on right side */
+    .v-rule {
+      position: absolute;
+      right: 220px;
+      top: 60px;
+      bottom: 60px;
+      width: 1px;
+      background: linear-gradient(to bottom, transparent, rgba(209,221,211,0.12) 30%, rgba(209,221,211,0.12) 70%, transparent);
+      z-index: 1;
+    }
+
+    /* Small grid of dots — purely decorative */
+    .dot-grid {
+      position: absolute;
+      bottom: 56px;
+      right: 80px;
+      display: grid;
+      grid-template-columns: repeat(5, 8px);
+      grid-template-rows: repeat(3, 8px);
+      gap: 8px;
+      z-index: 1;
+      opacity: 0.18;
+    }
+
+    .dot-grid span {
+      display: block;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      background: #8A9E92;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="accent-line"></div>
+    <div class="glow-tr"></div>
+    <div class="glow-bl"></div>
+    <div class="v-rule"></div>
+
+    <div class="dot-grid">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- TOP -->
+    <div class="top">
+      <div class="monogram">FJ</div>
+    </div>
+
+    <!-- MIDDLE -->
+    <div class="middle">
+      <div class="name">Federico<br>Jarach</div>
+      <div class="tagline-wrap">
+        <div class="tagline-line1">Strategic Partnerships &amp; Ecosystem Operator.</div>
+        <div class="tagline-line2">AI Whisperer.</div>
+      </div>
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="bottom">
+      <div class="pills">
+        <div class="pill"><span class="dot"></span>San Francisco, CA</div>
+      </div>
+      <div class="url">federico-jarach.github.io</div>
+    </div>
+  </div>
+</body>
+</html>
