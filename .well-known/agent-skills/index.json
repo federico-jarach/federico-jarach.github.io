@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "portfolio-summary",
+      "type": "skill-md",
+      "description": "Summarize Federico Jarach's public portfolio for recruiting, partnership, founder, investor, or ecosystem-building context.",
+      "url": "/.well-known/agent-skills/portfolio-summary/SKILL.md",
+      "digest": "sha256:09fde212f48f4b4d4997dbe163cf1adaf6c6973763cacace514acbdd0d02f845"
+    },
+    {
+      "name": "contact-routing",
+      "type": "skill-md",
+      "description": "Help agents route collaboration, recruiting, founder, investor, or partnership inquiries using Federico Jarach's public portfolio links.",
+      "url": "/.well-known/agent-skills/contact-routing/SKILL.md",
+      "digest": "sha256:20e6d61a384f4df6700fefcdfa53ab4ee8d096634af39e6cbdb054af2ce141c8"
+    }
+  ]
+}
