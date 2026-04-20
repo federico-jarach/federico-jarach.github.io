@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Control Center | Federico Jarach</title>
+    <meta name="description" content="AI Control Center is a local macOS menu bar app and Chrome extension by Federico Jarach for tracking active AI sessions across tools." />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://federico-jarach.github.io/ai-control-center/" />
+    <link rel="stylesheet" href="/search-page.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareSourceCode",
+        "url": "https://federico-jarach.github.io/ai-control-center/",
+        "name": "AI Control Center",
+        "codeRepository": "https://github.com/federico-jarach/ai-control-center",
+        "creator": {
+          "@type": "Person",
+          "name": "Federico Jarach",
+          "url": "https://federico-jarach.github.io/"
+        },
+        "programmingLanguage": "Rust, JavaScript, React",
+        "runtimePlatform": "macOS",
+        "about": [
+          "AI workflows",
+          "Tauri",
+          "Chrome extensions",
+          "Local-first software",
+          "Productivity tools"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <main>
+      <nav><a href="/">Federico Jarach</a> / AI Control Center</nav>
+      <p class="eyebrow">Local-first AI workflow tool</p>
+      <h1>AI Control Center</h1>
+      <p class="lede">A macOS menu bar app and Chrome extension that tracks open AI sessions so context does not slip across tools and conversations.</p>
+
+      <h2>The Problem</h2>
+      <p>Working across Claude, ChatGPT, Gemini, Grok, Perplexity, and Claude Code creates context sprawl. Active sessions hide in tabs, and the next action for each thread is easy to lose.</p>
+
+      <h2>The System</h2>
+      <p>The tool uses a Chrome extension, a local WebSocket, a Tauri backend, and a React menu bar interface. It deduplicates active AI sessions, persists local state, and lets the user jump back to the right tab.</p>
+
+      <h2>Technical Notes</h2>
+      <ul>
+        <li>Tauri instead of Electron for a smaller macOS app footprint</li>
+        <li>Rust backend with local JSON storage</li>
+        <li>Chrome extension reporting session updates over WebSocket</li>
+        <li>Local-first design: nothing needs to leave the machine</li>
+      </ul>
+
+      <p class="note">Repository: <a href="https://github.com/federico-jarach/ai-control-center">github.com/federico-jarach/ai-control-center</a>.</p>
+
+      <footer>
+        <p>See also: <a href="/pitch-clarity-coach/">Pitch Clarity Coach</a> and <a href="/portfolio.md">the markdown profile</a>.</p>
+      </footer>
+    </main>
+  </body>
+</html>

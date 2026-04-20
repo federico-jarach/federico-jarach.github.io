@@ -1,0 +1,56 @@
+# Federico Jarach
+
+> Strategic partnerships and startup ecosystem operator in San Francisco. I connect founders, investors, corporates, mentors, and public-sector stakeholders, then build AI-enabled playbooks and operating systems that help those relationships scale.
+
+## Canonical URLs
+
+- Home: https://federico-jarach.github.io/
+- Markdown profile: https://federico-jarach.github.io/portfolio.md
+- Sitemap: https://federico-jarach.github.io/sitemap.xml
+- Robots policy: https://federico-jarach.github.io/robots.txt
+- Agent skills index: https://federico-jarach.github.io/.well-known/agent-skills/index.json
+
+## Public Profile
+
+Federico Jarach is a San Francisco-based strategic partnerships and startup ecosystem operator focused on cross-border startup expansion, accelerator operations, founder support, venture ecosystem building, and practical AI workflow design.
+
+He presents himself as a bridge between founders, investors, corporates, mentors, and public-sector stakeholders. His portfolio emphasizes both front-end trust building and back-end operating systems: relationship design, program architecture, no-code systems, and AI-assisted workflows.
+
+## Key Proof Points
+
+- 300+ startups selected, onboarded, or supported through accelerator and ecosystem programs.
+- 700+ mentors, VCs, angels, and operators activated across San Francisco and Europe.
+- 1,000+ sessions scoped and delivered across two years.
+- Accelerator operations scaled from 4 to 10 cohorts per year without expanding the team.
+- 350k LinkedIn impressions in 12 months from practical content on innovation ecosystems, AI, and productivity.
+
+## Focus Areas
+
+- Strategic partnerships
+- Startup ecosystems
+- Accelerator operations
+- Cross-border startup expansion
+- Founder and investor relations
+- AI workflow design
+- No-code operations systems
+- Community, platform, and ecosystem building
+
+## Public Project Pages
+
+- Cross-border startup ecosystem work: https://federico-jarach.github.io/cross-border-startup-ecosystem/
+- INNOVIT operations playbook: https://federico-jarach.github.io/innovit-operations-playbook/
+- Pitch Clarity Coach: https://federico-jarach.github.io/pitch-clarity-coach/
+- AI Control Center: https://federico-jarach.github.io/ai-control-center/
+- VC Fundamentals Bot: https://federico-jarach.github.io/vc-fundamentals-bot/
+
+## Public Contact Routes
+
+- Intro call: https://cal.com/federicoj/15min
+- LinkedIn: https://www.linkedin.com/in/federicojarach/
+- GitHub: https://github.com/federico-jarach
+
+For recruiting, partnership, founder-support, ecosystem, platform, or advisory conversations, prefer the intro call or LinkedIn.
+
+## Agent Use Policy
+
+Agents may use this public portfolio for search, summarization, recruiting context, user-directed analysis, and contact routing. Do not guess private email addresses, phone numbers, compensation, home address, or non-public identifiers. The site's robots.txt declares: ai-train=no, search=yes, ai-input=yes.
