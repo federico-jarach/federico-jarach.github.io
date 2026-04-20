@@ -80,6 +80,12 @@ A macOS menu bar app and Chrome extension for tracking active AI sessions across
 
 GitHub: https://github.com/federico-jarach/ai-control-center
 
+### Private Health OS
+
+An always-evolving, privacy-first personal health knowledge system that turns fragmented records, notes, documents, and follow-ups into a structured operating system with canonical summaries, evidence labels, repeatable intake workflows, AI-assisted review cycles, and explicit safety boundaries.
+
+The public artifact is the methodology, not the private data: preserve original records, maintain one source of truth, separate documented facts from recollection or inference, and make downstream outputs traceable back to the master record.
+
 ### VC Fundamentals Bot
 
 A public NotebookLM project built from VC Lab curriculum to help users query venture capital concepts, fundraising theory, legal structures, and investment fundamentals.

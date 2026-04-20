@@ -42,6 +42,7 @@ He presents himself as a bridge between founders, investors, corporates, mentors
 - Pitch Clarity Coach: https://federico-jarach.github.io/pitch-clarity-coach/
 - AI Control Center: https://federico-jarach.github.io/ai-control-center/
 - VC Fundamentals Bot: https://federico-jarach.github.io/vc-fundamentals-bot/
+- Private Health OS: an always-evolving, privacy-first methodology for turning fragmented personal health records into a canonical, reviewable, AI-assisted operating system. No private records, medical details, or identifying health data are public.
 
 ## Public Contact Routes
 
