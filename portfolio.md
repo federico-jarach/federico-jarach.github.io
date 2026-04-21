@@ -36,6 +36,7 @@ Strong-fit environments include:
 - 1,000+ sessions scoped and delivered across two years.
 - 150% increase in accelerator cohort capacity, from 4 to 10 cohorts per year, without expanding the team.
 - 370+ sessions organized across 7 cohorts through the INNOVIT operating system.
+- 34 Bay Area healthcare and life-sciences venture ecosystem entities mapped into a CRM-ready partnership workflow with 691 audit rows, fit tiers, and actionable partnership hypotheses.
 - 350k LinkedIn impressions in 12 months from practical writing on AI, productivity, and innovation ecosystems.
 
 ## Career Snapshot
@@ -85,6 +86,12 @@ GitHub: https://github.com/federico-jarach/ai-control-center
 An always-evolving, privacy-first personal health knowledge system that turns fragmented records, notes, documents, and follow-ups into a structured operating system with canonical summaries, evidence labels, repeatable intake workflows, AI-assisted review cycles, and explicit safety boundaries.
 
 The public artifact is the methodology, not the private data: preserve original records, maintain one source of truth, separate documented facts from recollection or inference, and make downstream outputs traceable back to the master record.
+
+### Bay Area HCLS Venture Ecosystem Map
+
+A CRM-ready partnership map of the Bay Area healthcare and life-sciences venture ecosystem. The project mapped 34 entities across VC funds, CVCs, accelerators, incubators, and venture studios, with 691 audit rows supporting source traceability.
+
+The public artifact is the workflow: define inclusion rules, verify Bay Area presence and HCLS relevance, classify fit tiers, convert each entity into a concise partnership hypothesis, and prioritize outreach by sector relevance, portfolio density, platform orientation, and likely startup-funnel leverage.
 
 ### VC Fundamentals Bot
 

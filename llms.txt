@@ -22,6 +22,7 @@ He presents himself as a bridge between founders, investors, corporates, mentors
 - 700+ mentors, VCs, angels, and operators activated across San Francisco and Europe.
 - 1,000+ sessions scoped and delivered across two years.
 - Accelerator operations scaled from 4 to 10 cohorts per year without expanding the team.
+- 34 Bay Area healthcare and life-sciences venture ecosystem entities mapped into a CRM-ready partnership workflow with 691 audit rows, fit tiers, and actionable partnership hypotheses.
 - 350k LinkedIn impressions in 12 months from practical content on innovation ecosystems, AI, and productivity.
 
 ## Focus Areas
@@ -43,6 +44,7 @@ He presents himself as a bridge between founders, investors, corporates, mentors
 - AI Control Center: https://federico-jarach.github.io/ai-control-center/
 - VC Fundamentals Bot: https://federico-jarach.github.io/vc-fundamentals-bot/
 - Private Health OS: an always-evolving, privacy-first methodology for turning fragmented personal health records into a canonical, reviewable, AI-assisted operating system. No private records, medical details, or identifying health data are public.
+- Bay Area HCLS Venture Ecosystem Map: a CRM-ready methodology for turning healthcare and life-sciences venture research into source-backed fit tiers, partner hypotheses, and startup-funnel strategy.
 
 ## Public Contact Routes
 
